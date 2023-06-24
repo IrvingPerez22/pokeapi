@@ -1,0 +1,29 @@
+Para poder correr el siguiente codigo que adjunté es necesario tener instalado Node.js en el sistema
+
+Podemos verificar si tenemos instalado Node.js con el siguiente comando.
+
+node --version
+
+Como siguiente paso si esta instalado veras la versión que tienes, en caso de que no puedes descargarlo de la siguiente liga https://nodejs.org/
+
+Se creará un archivo con la extension .js en mi caso es "app.js"
+
+Abrimos una ventana de terminal y navegamos hasta la ubicación donde tenenmos guardado el archivo app.js usando el comando cd (por ejemplo, cd ruta/del/archivo).
+
+Ejecuta el siguiente comando para instalar las dependencias requeridas (Express y Axios):
+
+Ejecutamos el siguiente comando  para instalar lo requerido (Express y Axios)
+
+npm install express axios
+
+Una vez instaladas las dependencias ejecutamos el siguiente comando para pder iniciar el servidor
+
+node app.js
+
+Nos mandará un mensaje que la terminal del servidor a iniciado correctamente en el puerto 80
+
+Y bueno si todo a salido bien y correctamente los endpoints, podremos accedeer desde nuestro navegador con dichas herramientas, por mencionar alguna podría ser POSTMAN
+
+Para acceder a nuestro primer endpoint (GET /pokemons), abriremos el navegador y visitaremos http://localhost/pokemons. Podemos agregar los parámetros limit, page y search a la URL según tus necesidades.
+
+Para acceder al segundo endpoint (POST /pokemon/pdf), necesitaremos realizar una solicitud POST con el nombre del pokemon en el body.Dicha herramienta anteriormente mencionada como Postman para enviar la solicitud al endpoint http://localhost/pokemon/pdf.
